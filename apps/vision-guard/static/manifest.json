@@ -1,0 +1,39 @@
+{
+  "name": "Vision Guard 119",
+  "short_name": "VG119",
+  "description": "Helps turn your eyes away from looking at what is worthless ;)",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "webNavigation",
+    "storage",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "Vision Guard 119",
+    "default_popup": "index.html"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules_1.json"
+      },
+      {
+        "id": "ruleset_2",
+        "enabled": true,
+        "path": "rules_2.json"
+      },
+      {
+        "id": "ruleset_3",
+        "enabled": true,
+        "path": "rules_3.json"
+      }
+    ]
+  }
+}
