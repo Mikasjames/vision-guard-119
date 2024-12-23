@@ -19,9 +19,12 @@
                         <div class="me-3">
                         </div>
                         <div>
-                            <h4 class="alert-heading">Accountability Notice</h4>
+                            <h4 class="alert-heading">
+                                <i class="bi bi-exclamation-triangle"></i>
+                                Accountability Notice
+                            </h4>
                             <p class="mb-0">
-                                Your accountability partners have been notified about this attempted access to {searchedSite}.
+                                Your accountability partners have been notified about this attempted access to <span class="text-danger">{searchedSite}</span>.
                                 Remember, they're here to support your journey, not to judge.
                             </p>
                         </div>
@@ -32,7 +35,10 @@
                 <div class="card shadow-sm mb-4">
                     <div class="card-body">
                         <div class="d-flex align-items-center mb-3">
-                            <h2 class="h3 mb-0">Stay Strong</h2>
+                            <h2 class="h3 mb-0">
+                                <i class="bi bi-heart text-danger fs-4"></i>
+                                Stay Strong
+                            </h2>
                         </div>
 
                         <p class="lead">
@@ -51,6 +57,7 @@
                                     'Do 10 pushups or jumping jacks'
                                 ] as action}
                                     <li class="d-flex align-items-center mb-2">
+                                        <i class="bi bi-arrow-right-short fs-5 text-primary"></i>
                                         <span>{action}</span>
                                     </li>
                                 {/each}
