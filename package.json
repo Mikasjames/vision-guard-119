@@ -17,5 +17,9 @@
   "engines": {
     "node": ">=18"
   },
-  "name": "with-svelte"
+  "name": "with-svelte",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  }
 }
