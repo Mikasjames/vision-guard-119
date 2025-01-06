@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3ff8157-429e-4557-9e57-cdf2318a7885" name="Changes" comment="Add icons to each sections in the redirect page">
+    <list default="true" id="e3ff8157-429e-4557-9e57-cdf2318a7885" name="Changes" comment="Add motivational quotes to redirect page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/vision-guard/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/apps/vision-guard/src/routes/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/vision-guard/static/rules_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/vision-guard/static/rules_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/vision-guard/static/rules_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/vision-guard/static/rules_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/vision-guard/static/rules_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/vision-guard/static/rules_3.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\mikas\\Documents\\GitHub\\vision-guard-119\\apps\\vision-guard\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\mikas\\Documents\\GitHub\\vision-guard-119\\apps\\vision-guard\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mikas\Documents\GitHub\vision-guard-119\apps\vision-guard\static" />
@@ -72,7 +73,8 @@
       <workItem from="1734665202679" duration="18771000" />
       <workItem from="1734913062666" duration="2740000" />
       <workItem from="1734915861642" duration="4281000" />
-      <workItem from="1734932013603" duration="2855000" />
+      <workItem from="1734932013603" duration="3646000" />
+      <workItem from="1736135986823" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="Setup turborepo">
       <option name="closed" value="true" />
@@ -122,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734919144070</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add motivational quotes to redirect page">
+      <option name="closed" value="true" />
+      <created>1734935178899</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734935178899</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +156,7 @@
     <MESSAGE value="Add params to redirect path to detect forbidden route" />
     <MESSAGE value="Add bootstrap, add popup and redirect pages" />
     <MESSAGE value="Add icons to each sections in the redirect page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add icons to each sections in the redirect page" />
+    <MESSAGE value="Add motivational quotes to redirect page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add motivational quotes to redirect page" />
   </component>
 </project>
