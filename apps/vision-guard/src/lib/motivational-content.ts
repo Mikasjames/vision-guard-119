@@ -1,4 +1,6 @@
-export const supportiveTips = [
+import type { MotivationalMessage, TextAuthor, TextIcon } from "@repo/ui";
+
+export const supportiveTips: MotivationalMessage[] = [
     {
         title: "Remember Your Why",
         content: "Focus on your personal goals and the positive changes you're making.",
@@ -42,7 +44,7 @@ export const supportiveTips = [
     {
         title: "Prioritize Self-Care",
         content: "Make time for activities that refresh and energize you.",
-        icon: "spa"
+        icon: "person-heart"
     },
     {
         title: "Stay Curious",
@@ -51,7 +53,7 @@ export const supportiveTips = [
     }
 ];
 
-export const quickActions = [
+export const quickActions: TextIcon[] = [
     { text: "Take a few deep breaths", icon: "wind" },
     { text: "Drink a glass of water", icon: "cup-hot" },
     { text: "Do 10 jumping jacks", icon: "heart-pulse" },
@@ -78,7 +80,7 @@ export const quickActions = [
     { text: "Look at a photo that makes you happy", icon: "image" }
 ];
 
-export const motivationalQuotes = [
+export const motivationalQuotes: TextAuthor[] = [
     {
         text: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
         author: "Winston Churchill"
@@ -121,7 +123,7 @@ export const motivationalQuotes = [
     }
 ];
 
-export const messages = [
+export const messages: MotivationalMessage[] = [
     {
         title: "Accountability Notice",
         content: "Your accountability partners are here to support your journey.",

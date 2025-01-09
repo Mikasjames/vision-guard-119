@@ -6,9 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e3ff8157-429e-4557-9e57-cdf2318a7885" name="Changes" comment="Add motivational quotes to redirect page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/vision-guard/static/rules_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/vision-guard/static/rules_1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/vision-guard/static/rules_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/vision-guard/static/rules_2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/vision-guard/static/rules_3.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/vision-guard/static/rules_3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/vision-guard/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/vision-guard/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/vision-guard/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/apps/vision-guard/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config-eslint/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-eslint/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/config-eslint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-eslint/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/components/MyCounterButton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/MyCounterButton.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +32,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mikasjames/vision-guard-119.git&quot;,
+    &quot;accountId&quot;: &quot;52910ba5-004f-4d54-ae9d-211009a8bb0e&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,26 +49,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\mikas\\Documents\\GitHub\\vision-guard-119\\apps\\vision-guard\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/mikas/Documents/GitHub/vision-guard-119",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "ts.external.directory.path": "C:\\Users\\mikas\\Documents\\GitHub\\vision-guard-119\\packages\\ui\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mikas\Documents\GitHub\vision-guard-119\apps\vision-guard\static" />
       <recent name="C:\Users\mikas\Documents\GitHub\vision-guard-119" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.44" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,6 +98,13 @@
       <workItem from="1734915861642" duration="4281000" />
       <workItem from="1734932013603" duration="3646000" />
       <workItem from="1736135986823" duration="628000" />
+      <workItem from="1736161263204" duration="269000" />
+      <workItem from="1736161573694" duration="203000" />
+      <workItem from="1736161810482" duration="1172000" />
+      <workItem from="1736177428980" duration="112000" />
+      <workItem from="1736178152329" duration="334000" />
+      <workItem from="1736178694186" duration="178000" />
+      <workItem from="1736413763683" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="Setup turborepo">
       <option name="closed" value="true" />
