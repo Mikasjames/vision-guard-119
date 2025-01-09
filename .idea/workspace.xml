@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3ff8157-429e-4557-9e57-cdf2318a7885" name="Changes" comment="Add motivational quotes to redirect page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/vision-guard/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/vision-guard/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/vision-guard/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/apps/vision-guard/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/config-eslint/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-eslint/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/config-eslint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/config-eslint/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/components/MyCounterButton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/components/MyCounterButton.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/vision-guard/static/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/vision-guard/static/manifest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +59,7 @@
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\mikas\\Documents\\GitHub\\vision-guard-119\\node_modules\\prettier",
     "settings.editor.selected.configurable": "settings.typescriptcompiler",
     "ts.external.directory.path": "C:\\Users\\mikas\\Documents\\GitHub\\vision-guard-119\\packages\\ui\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -105,6 +100,7 @@
       <workItem from="1736178152329" duration="334000" />
       <workItem from="1736178694186" duration="178000" />
       <workItem from="1736413763683" duration="57000" />
+      <workItem from="1736414742883" duration="1343000" />
     </task>
     <task id="LOCAL-00001" summary="Setup turborepo">
       <option name="closed" value="true" />
