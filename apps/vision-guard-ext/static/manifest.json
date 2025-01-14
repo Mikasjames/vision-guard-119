@@ -1,0 +1,35 @@
+{
+    "name": "Vision Guard 119 Ext",
+    "short_name": "VG119Ext",
+    "description": "Helps turn your eyes away from looking at what is worthless ;) (Extends Vision Guard 119 Features)",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "webNavigation",
+        "storage",
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess",
+        "management",
+        "notifications"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_title": "Vision Guard 119 Ext",
+        "default_popup": "popup.html"
+    },
+    "web_accessible_resources": [
+        {
+          "resources": ["index.html"],
+          "matches": ["<all_urls>"]
+        }
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "incognito": "split",
+    "background": {
+        "service_worker": "background.js"
+    }
+}
