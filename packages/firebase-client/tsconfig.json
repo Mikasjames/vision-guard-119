@@ -8,5 +8,11 @@
       "skipLibCheck": true,
       "sourceMap": true,
       "strict": true,
+      "lib": [
+        "ES5",
+        "ES2015",
+        "DOM",
+        "ScriptHost"
+      ]
     },
   }

@@ -13,7 +13,7 @@ export const logout = function() {
 
 export const currentUserConnected = function() {
     return new Promise<User | null>((resolve, reject) => {
-        onAuthStateChanged(auth, (user) => {
+        onAuthStateChanged(auth, (user: User | null) => {
             resolve(user);
         })
     });
