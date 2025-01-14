@@ -13,7 +13,8 @@
 		"lint": "prettier --check . && eslint ."
 	},
 	"dependencies": {
-		"@repo/ui": "workspace:*"
+		"@repo/ui": "workspace:*",
+		"@repo/firebase-client": "workspace:*"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.4",
