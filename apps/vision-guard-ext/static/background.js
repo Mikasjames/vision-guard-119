@@ -25,3 +25,14 @@ chrome.management.onEnabled.addListener(async (info) => {
 chrome.extension.isAllowedIncognitoAccess((isAllowedAccess) => {
 	console.log('isAllowedAccess', isAllowedAccess);
 });
+
+chrome.storage.onChanged.addListener((changes, areaName) => {
+	if (areaName === 'local' || areaName === 'sync') {
+		const isStorageCleared = Object.keys(changes).length === 0;
+		if (isStorageCleared) {
+			console.log('Chrome storage has been cleared in the', areaName, 'area.');
+		} else {
+			console.log('Storage changes detected:', changes);
+		}
+	}
+});
